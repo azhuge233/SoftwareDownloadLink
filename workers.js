@@ -12,15 +12,10 @@ var html = `
     <meta name="azhuge233" content="often used apps">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
-    .body {
-    	background-color: #121212;
-        margin: auto;
-    }
-
     .table thead tr th {
         text-align: center;
         vertical-align: middle;
-    	background-color: #2e2e2e;
+        background-color: #2e2e2e;
     }
 
     .table tbody tr td {
@@ -30,69 +25,69 @@ var html = `
         vertical-align: middle;
     }
     </style>
-   	<link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://img.icons8.com/flat_round/64/000000/link--v1.png" />
     <link rel="apple-touch-icon" type="image/png" href="https://img.icons8.com/flat_round/64/000000/link--v1.png" />
 </head>
 
-<body class="text-center container">
-	<a href="#top"></a>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+<body class="text-center container" style="background-color: #121112; color: #EEEEEE;">
+    <a href="#top"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">
-        	<img src="https://img.icons8.com/flat_round/64/000000/link--v1.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        	Software Download Link
+            <img src="https://img.icons8.com/flat_round/64/000000/link--v1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Software Download Link
         </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      		<span class="navbar-toggler-icon"></span>
-    	</button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        	<ul class="navbar-nav mr-auto">
-        		<li class="nav-item">
-        			<a class="nav-link" href="#dev">Dev</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#virt">Virtualization</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#download">Download</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#game">Game</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#im">IM</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#media">Media</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#browser">Browser</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#office">Office</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#net">Network</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#remote">Remote Desktop</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#others">Others</a>
-        		</li>
-        	</ul>
-    	</div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#dev">Dev</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#virt">Virtualization</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#game">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#im">IM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#media">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#browser">Browser</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#office">Office</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#net">Network</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#remote">Remote Desktop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#others">Others</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <br/>
 
-    <div class="alert alert-dark alert-dismissible fade show" role="alert">
-    	All the links are from their official websites.
-  		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    		<span aria-hidden="true">&times;</span>
-  		</button>
-	</div>
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        All the links are from their official websites.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
 
-    <a href="#top" class="btn btn-info" role="button" style="position:fixed;right:3px;bottom:3px">Back to Top</a>
+    <a href="#top" class="btn btn-secondary" role="button" style="position:fixed;right:3px;bottom:3px">Back to Top</a>
 
     <a href="#dev"></a>
     <div id="dev">
@@ -227,16 +222,16 @@ var html = `
                     </td>
                 </tr>
                 <!--<tr>
-						<td>
-							
-						</td>
-						<td>
-							<a href="" target="_blank">
-								Download Page
-							</a>
-							&nbsp;
-						</td>
-					</tr>-->
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <a href="" target="_blank">
+                                Download Page
+                            </a>
+                            &nbsp;
+                        </td>
+                    </tr>-->
             </tbody>
         </table>
     </div>
@@ -244,7 +239,7 @@ var html = `
     <a href="#virt"></a>
     <div id="virt">
         <h5>
-        	Virtualization
+            Virtualization
         </h5>
        
         <table class="table table-dark">
@@ -282,7 +277,7 @@ var html = `
     <a href="#editor"></a>
     <div id="editor">
         <h5>
-        	Editor
+            Editor
         </h5>
         <table class="table table-dark">
             <thead>
@@ -335,7 +330,7 @@ var html = `
     <a href="#download"></a>
     <div id="download">
         <h5>
-        	Download
+            Download
         </h5>
         <table class="table table-dark">
             <thead>
@@ -380,16 +375,16 @@ var html = `
                     </td>
                 </tr>
                 <!--<tr>
-						<td>
-							
-						</td>
-						<td>
-							<a href="" target="_blank">
-								
-							</a>
-							&nbsp;
-						</td>
-					</tr>-->
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <a href="" target="_blank">
+                                
+                            </a>
+                            &nbsp;
+                        </td>
+                    </tr>-->
             </tbody>
         </table>
     </div>
@@ -397,7 +392,7 @@ var html = `
     <a href="#game"></a>
     <div id="game">
         <h5>
-        	Game
+            Game
         </h5>
         <table class="table table-dark">
             <thead>
@@ -532,7 +527,7 @@ var html = `
     <a href="#im"></a>
     <div id="im">
         <h5>
-        	IM
+            IM
         </h5>
         <table class="table table-dark">
             <thead>
@@ -543,76 +538,76 @@ var html = `
             </thead>
             <tbody>
                 <tr>
-                	<td>TIM</td>
-                	<td>
-                  		<a href="https://tim.qq.com/download.html" target="_blank">
-                        	Release Page
-                    	</a>
-                	</td>
-            	</tr>
-            	<tr>
-                	<td>QQ</td>
-                	<td>
-                    	<a href="https://im.qq.com/download/" target="_blank">
-                        	Release Page
-                    	</a>
-                	</td>
-            	</tr>
+                    <td>TIM</td>
+                    <td>
+                        <a href="https://tim.qq.com/download.html" target="_blank">
+                            Release Page
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>QQ</td>
+                    <td>
+                        <a href="https://im.qq.com/download/" target="_blank">
+                            Release Page
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                    	微信
+                        微信
                     </td>
                     <td>
                         <a href="https://pc.weixin.qq.com/" target="_blank">
-                        	Windows
+                            Windows
                         </a>
                         &nbsp;
                         <a href="https://dldir1.qq.com/weixin/mac/WeChatMac.dmg" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Discord
+                        Discord
                     </td>
                     <td>
                         <a href="https://discordapp.com/api/download?platform=win" target="_blank">
-                        	Windows
+                            Windows
                         </a>
                         &nbsp;
                         <a href="https://discordapp.com/api/download?platform=osx" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                         &nbsp;
                         <a href="https://discordapp.com/api/download?platform=linux&format=deb" target="_blank">
-                        	Linux(deb)
+                            Linux(deb)
                         </a>
                         &nbsp;
                         <a href="https://discordapp.com/api/download?platform=linux&format=tar.gz" target="_blank">
-                        	Linux(tar.gz)
+                            Linux(tar.gz)
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Telegram
+                        Telegram
                     </td>
                     <td>
                         <a href="https://telegram.org/dl/desktop/win" target="_blank">
-                        	Windows
+                            Windows
                         </a>
                         &nbsp;
                         <a href="https://telegram.org/dl/desktop/mac" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                         &nbsp;
                         <a href="https://telegram.org/dl/desktop/linux" target="_blank">
-                        	Linux(x64)
+                            Linux(x64)
                         </a>
                         &nbsp;
                         <a href="https://telegram.org/dl/desktop/linux32" target="_blank">
-                        	Linux(x32)
+                            Linux(x32)
                         </a>
                     </td>
                 </tr>
@@ -623,7 +618,7 @@ var html = `
     <a href="#media"></a>
     <div id="media">
         <h5>
-        	Media
+            Media
         </h5>
         <table class="table table-dark">
             <thead>
@@ -633,49 +628,49 @@ var html = `
                 </tr>
             </thead>
             <tbody>
-            	<tr>
-                	<td>网易云音乐</td>
-                	<td>
-                    	<a href="https://music.163.com/#/download" target="_blank">
-                        	Release Page
-                    	</a>
-                	</td>
-            	</tr>
+                <tr>
+                    <td>网易云音乐</td>
+                    <td>
+                        <a href="https://music.163.com/#/download" target="_blank">
+                            Release Page
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                    	Potplayer
+                        Potplayer
                     </td>
                     <td>
                         <a href="https://daumpotplayer.com/download/" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	VLC
+                        VLC
                     </td>
                     <td>
                         <a href="https://www.videolan.org/vlc/download-windows.html" target="_blank">
-                        	Windows
+                            Windows
                         </a>
                         &nbsp;
                         <a href="https://www.videolan.org/vlc/download-macosx.html" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                         &nbsp;
                         <a href="https://www.videolan.org/vlc/#download" target="_blank">
-                        	Linux Distros & Other platforms
+                            Linux Distros & Other platforms
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	IINA
+                        IINA
                     </td>
                     <td>
                         <a href="https://www.iina.io/download/" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                     </td>
                 </tr>
@@ -686,7 +681,7 @@ var html = `
     <a href="#browser"></a>
     <div id="browser">
         <h5>
-        	Browser
+            Browser
         </h5>
         <table class="table table-dark">
             <thead>
@@ -696,33 +691,33 @@ var html = `
                 </tr>
             </thead>
             <tbody>
-            	<tr>
+                <tr>
                     <td>
-                    	Microsoft Edge
+                        Microsoft Edge
                     </td>
                     <td>
                         <a href="https://www.microsoft.com/zh-cn/edge/" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Chrome
+                        Chrome
                     </td>
                     <td>
                         <a href="https://www.google.com/chrome/" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	FireFox
+                        FireFox
                     </td>
                     <td>
                         <a href="https://www.mozilla.org/en-US/firefox/download/thanks/" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
@@ -733,7 +728,7 @@ var html = `
     <a href="#office"></a>
     <div id="office">
         <h5>
-        	Office
+            Office
         </h5>
         <table class="table table-dark">
             <thead>
@@ -743,33 +738,33 @@ var html = `
                 </tr>
             </thead>
             <tbody>
-            	<tr>
+                <tr>
                     <td>
-                    	Office Tool Plus
+                        Office Tool Plus
                     </td>
                     <td>
                         <a href="https://otp.landian.vip/en-us/download.html" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	WPS
+                        WPS
                     </td>
                     <td>
                         <a href="https://www.wps.cn/" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Draw.io
+                        Draw.io
                     </td>
                     <td>
                         <a href="https://github.com/jgraph/drawio-desktop/releases" target="_blank">
-                        	Release Page
+                            Release Page
                         </a>
                     </td>
                 </tr>
@@ -780,7 +775,7 @@ var html = `
     <a href="#net"></a>
     <div id="net">
         <h5>
-        	Network
+            Network
         </h5>
         <table class="table table-dark">
             <thead>
@@ -790,54 +785,54 @@ var html = `
                 </tr>
             </thead>
             <tbody>
-            	<tr>
+                <tr>
                     <td>
-                    	Shadowsocks
+                        Shadowsocks
                     </td>
                     <td>
-                    	<a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank">
-                        	shadowsocks(windows)
+                        <a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank">
+                            shadowsocks(windows)
                         </a>
                         &nbsp;
                         <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases" target="_blank">
-                        	ShadowsocksX-NG (macOS)
+                            ShadowsocksX-NG (macOS)
                         </a>
                     </td>
                 <tr>
                     <td>
-                    	Clash
+                        Clash
                     </td>
                     <td>
                         <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases" target="_blank">
-                        	clash_for_windows_pkg
+                            clash_for_windows_pkg
                         </a>
                         &nbsp;
                         <a href="https://github.com/yichengchen/clashX/releases" target="_blank">
-                        	clashX (macOS)
+                            clashX (macOS)
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	WireShark
+                        WireShark
                     </td>
                     <td>
                         <a href="https://www.wireshark.org/download.html" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Fiddler
+                        Fiddler
                     </td>
                     <td>
                         <a href="https://www.telerik.com/download/fiddler" target="_blank">
-                        	Windows Download Page
+                            Windows Download Page
                         </a>
                         &nbsp;
                         <a href="https://www.telerik.com/download/fiddler-everywhere" target="_blank">
-                        	macOS & Linux Download Page
+                            macOS & Linux Download Page
                         </a>
                     </td>
                 </tr>
@@ -848,7 +843,7 @@ var html = `
     <a href="#remote"></a>
     <div id="remote">
         <h5>
-        	Remote Desktop
+            Remote Desktop
         </h5>
         <table class="table table-dark">
             <thead>
@@ -860,51 +855,51 @@ var html = `
             <tbody>
                 <tr>
                     <td>
-                    	Splashtop
+                        Splashtop
                     </td>
                     <td>
                         <a href="https://www.splashtop.com/downloadstart?platform=auto" target="_blank">
-                        	Splashtop Streamer
+                            Splashtop Streamer
                         </a>
                         &nbsp;
                         <a href="https://www.splashtop.com/downloadstart?product=stp&platform=auto" target="_blank">
-                        	Splashtop Personal
+                            Splashtop Personal
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Teamviewer
+                        Teamviewer
                     </td>
                     <td>
                         <a href="https://www.teamviewer.cn/cn/teamviewer-automatic-download/" target="_blank">
-                        	Direct Link
+                            Direct Link
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	AnyDesk
+                        AnyDesk
                     </td>
                     <td>
                         <a href="https://anydesk.com/zhs/downloads/windows" target="_blank">
-                        	Windows
+                            Windows
                         </a>
                         &nbsp;
                         <a href="https://anydesk.com/zhs/downloads/mac-os" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                         &nbsp;
                         <a href="https://anydesk.com/zhs/downloads/linux" target="_blank">
-                        	Linux
+                            Linux
                         </a>
                         &nbsp;
                         <a href="https://anydesk.com/zhs/downloads/freebsd" target="_blank">
-                        	FreeBSD
+                            FreeBSD
                         </a>
                         &nbsp;
                         <a href="https://anydesk.com/zhs/downloads/raspberry-pi" target="_blank">
-                        	Raspberry Pi
+                            Raspberry Pi
                         </a>
                     </td>
                 </tr>
@@ -915,7 +910,7 @@ var html = `
     <a href="#others"></a>
     <div id="others">
         <h5>
-        	Others
+            Others
         </h5>
         <table class="table table-dark">
             <thead>
@@ -925,111 +920,111 @@ var html = `
                 </tr>
             </thead>
             <tbody>
-            	<tr>
+                <tr>
                     <td>
-                    	Dism++
+                        Dism++
                     </td>
                     <td>
                         <a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases" target="_blank">
-                        	Release Page
+                            Release Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	miniBin
+                        miniBin
                     </td>
                     <td>
                         <a href="http://q.gs/16170215/minibin" target="_blank">
-                        	Direct Link
+                            Direct Link
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	TrafficMonitor
+                        TrafficMonitor
                     </td>
                     <td>
                         <a href="https://github.com/zhongyang219/TrafficMonitor/releases" target="_blank">
-                        	Release Page
+                            Release Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	SpaceSniffer
+                        SpaceSniffer
                     </td>
                     <td>
                         <a href="http://www.uderzo.it/main_products/space_sniffer/download_alt.html" target="_blank">
-                        	Release Page
+                            Release Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Open Broadcaster Software(OBS)
+                        Open Broadcaster Software(OBS)
                     </td>
                     <td>
                         <a href="https://obsproject.com/download" target="_blank">
-                        	Download Page
+                            Download Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	Win32DiskImager
+                        Win32DiskImager
                     </td>
                     <td>
                         <a href="https://sourceforge.net/projects/win32diskimager/files/latest/download" target="_blank">
-                        	Direct Link
+                            Direct Link
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	etcher
+                        etcher
                     </td>
                     <td>
                         <a href="https://github.com/balena-io/etcher/releases" target="_blank">
-                        	Release Page
+                            Release Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	rufus
+                        rufus
                     </td>
                     <td>
                         <a href="http://rufus.ie/downloads/" target="_blank">
-                        	Release Page
+                            Release Page
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	SD Card Formatter
+                        SD Card Formatter
                     </td>
                     <td>
                         <a href="https://www.sdcard.org/downloads/formatter/eula_windows/index.html" target="_blank">
-                        	Windows
+                            Windows
                         </a>
                         &nbsp;
                         <a href="https://www.sdcard.org/downloads/formatter/eula_mac/index.html" target="_blank">
-                        	macOS
+                            macOS
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    	iTunes
+                        iTunes
                     </td>
                     <td>
                         <a href="https://www.apple.com/itunes/download/win64" target="_blank">
-                        	Windows(x64)
+                            Windows(x64)
                         </a>
                         &nbsp;
                         <a href="https://www.apple.com/itunes/download/win32" target="_blank">
-                        	Windows(x86)
+                            Windows(x86)
                         </a>
                     </td>
                 </tr>
@@ -1040,7 +1035,7 @@ var html = `
     <!-- <a href="#"></a>
     <div id="">
         <h5>
-        	
+            
         </h5>
         <table class="table table-dark">
             <thead>
