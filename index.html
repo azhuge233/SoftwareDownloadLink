@@ -19,6 +19,13 @@
         text-align: center;
         vertical-align: middle;
     }
+
+    #TopBtn {
+        position:fixed;
+        right:3px;
+        bottom:3px;
+    }
+
     </style>
    	<link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://img.icons8.com/flat_round/64/000000/link--v1.png" />
@@ -82,7 +89,9 @@
   		</button>
 	</div>
 
-    <a href="#top" class="btn btn-secondary" role="button" style="position:fixed;right:3px;bottom:3px">Back to Top</a>
+    <div id="TopBtn" class="btn btn-secondary">
+        <span>Back to Top</span>
+    </div>
 
     <a href="#dev"></a>
     <div id="dev">
@@ -1055,8 +1064,32 @@
 
 </body>
 
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/popper.js/1.16.1/popper.min.js"></script>
 <script src="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#TopBtn").hide();
+
+        $(function() {
+
+            $(window).scroll(function() {
+                if($(window).scrollTop() > 200) {
+                    $("#TopBtn").fadeIn(300);
+                }
+                else {
+                    $("#TopBtn").fadeOut(500);
+                }
+            });
+
+            $("#TopBtn").click(function() {
+                $("body,html").animate({
+                    scrollTop: 0
+                }, 700);
+                return false;
+            });
+        });
+    });
+</script>>
 
 </html>
