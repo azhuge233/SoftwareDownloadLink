@@ -1064,6 +1064,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                    	OpenHardwareMonitor
+                    </td>
+                    <td>
+                        <a href="https://openhardwaremonitor.org/downloads/" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
