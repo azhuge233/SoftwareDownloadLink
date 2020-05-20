@@ -821,6 +821,26 @@ var html = `
                 </tr>
             </thead>
             <tbody>
+				<tr>
+                    <td>
+                    	PuTTY
+                    </td>
+                    <td>
+                    	<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                <tr>
+				<tr>
+                    <td>
+                    	psping
+                    </td>
+                    <td>
+                    	<a href="https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping" target="_blank">
+                        	Microsoft Page
+                        </a>
+                    </td>
+                <tr>
             	<tr>
                     <td>
                     	Shadowsocks
@@ -956,6 +976,16 @@ var html = `
                 </tr>
             </thead>
             <tbody>
+				<tr>
+                    <td>
+                    	7zip
+                    </td>
+                    <td>
+                        <a href="https://www.7-zip.org/" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
             	<tr>
                     <td>
                     	Dism++
@@ -971,8 +1001,8 @@ var html = `
                     	miniBin
                     </td>
                     <td>
-                        <a href="http://q.gs/16170215/minibin" target="_blank">
-                        	Direct Link
+                        <a href="http://q.gs/16170215/minibin" target="_blank" style="text-decoration:line-through">
+                        	Direct Link (invalid)
                         </a>
                     </td>
                 </tr>
