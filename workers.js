@@ -234,6 +234,26 @@ var html = `
                     </td>
                 </tr>
 				<tr>
+                    <td>
+                        SSMS
+                    </td>
+                    <td>
+                        <a href="https://aka.ms/ssmsfullsetup" target="_blank">
+                            Direct Link
+                        </a>
+                    </td>
+                </tr>
+				<tr>
+                    <td>
+                        SQL Server
+                    </td>
+                    <td>
+                        <a href="https://www.microsoft.com/zh-cn/sql-server/sql-server-downloads" target="_blank">
+                            Download Page
+                        </a>
+                    </td>
+                </tr>
+				<tr>
 					<td>
 						Chromedriver	
 					</td>
@@ -1001,8 +1021,8 @@ var html = `
                     	miniBin
                     </td>
                     <td>
-                        <a href="http://q.gs/16170215/minibin" target="_blank" style="text-decoration:line-through">
-                        	Direct Link (invalid)
+                        <a href="https://e-sushi.net/minibin/" target="_blank">
+                        	Official Site
                         </a>
                     </td>
                 </tr>
@@ -1136,7 +1156,7 @@ var html = `
 	
 	<footer class="footer navbar-fixed-bottom">
 		<p clash="text-center">
-			Powerd by <a href="https://azhuge233.com" target="_blank">azhuge233</a> ·
+			Powered by <a href="https://azhuge233.com" target="_blank">azhuge233</a> ·
 			<a href="https://github.com/azhuge233/SoftwareDownloadLink" target="_blank">Github</a>
 		</p>
 	</footer>
