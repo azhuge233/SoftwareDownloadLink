@@ -1046,6 +1046,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                    	Authy
+                    </td>
+                    <td>
+                        <a href="https://authy.com/download/" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                     	Open Broadcaster Software(OBS)
