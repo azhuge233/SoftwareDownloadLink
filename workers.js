@@ -1110,6 +1110,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                    	EasyUEFI
+                    </td>
+                    <td>
+                        <a href="https://www.easyuefi.com/index-us.html" target="_blank">
+                        	Download Page
+						</a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                     	iTunes
