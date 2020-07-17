@@ -697,7 +697,7 @@ var html = `
                     	Potplayer
                     </td>
                     <td>
-                        <a href="https://daumpotplayer.com/download/" target="_blank">
+                        <a href="http://potplayer.daum.net/" target="_blank">
                         	Download Page
                         </a>
                     </td>
