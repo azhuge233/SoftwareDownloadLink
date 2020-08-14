@@ -223,6 +223,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                        Java SDK
+                    </td>
+                    <td>
+                        <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">
+                            Oracle Java SE
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         Code Blocks
