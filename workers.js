@@ -193,6 +193,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                        LINQPad
+                    </td>
+                    <td>
+                        <a href="https://www.linqpad.net/Download.aspx" target="_blank">
+                            Download Page
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         Visual Studio Code
