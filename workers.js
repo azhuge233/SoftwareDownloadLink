@@ -873,6 +873,16 @@ var html = `
                 <tr>
 				<tr>
                     <td>
+                    	WinSCP
+                    </td>
+                    <td>
+                    	<a href="https://winscp.net/eng/downloads.php" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                <tr>
+				<tr>
+                    <td>
                     	psping
                     </td>
                     <td>
