@@ -273,6 +273,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Nginx
+                    </td>
+                    <td>
+                        <a href="https://nginx.org/en/download.html" target="_blank">
+                            Download Page
+                        </a>
+                    </td>
+                </tr>
 				<tr>
 					<td>
 						Chromedriver	
