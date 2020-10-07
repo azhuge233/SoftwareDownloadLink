@@ -307,6 +307,16 @@ var html = `
 						</a>
 					</td>
 				</tr>
+                <tr>
+                    <td>
+                        Visual C++  
+                    </td>
+                    <td>
+                        <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank">
+                            Release Page
+                        </a>
+                    </td>
+                </tr>
                 <!--<tr>
 						<td>
 							
