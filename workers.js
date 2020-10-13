@@ -953,7 +953,7 @@ var html = `
                     	Fiddler
                     </td>
                     <td>
-                        <a href="https://www.telerik.com/download/fiddler" target="_blank">
+                        <a href="https://www.telerik.com/download/fiddler/fiddler4" target="_blank">
                         	Windows Download Page
                         </a>
                         &nbsp;
