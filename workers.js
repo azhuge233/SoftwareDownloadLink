@@ -391,6 +391,14 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>glogg</td>
+                    <td>
+                        <a href="http://glogg.bonnefon.org/download.html" target="_blank">
+                            Download Page
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         Typora
