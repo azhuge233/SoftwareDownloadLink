@@ -1037,6 +1037,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                    	VNC Viewer
+                    </td>
+                    <td>
+                        <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">
+                        	Download Page
+                        </a>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
