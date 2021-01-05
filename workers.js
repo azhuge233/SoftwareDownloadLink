@@ -1212,6 +1212,16 @@ var html = `
                         </a>
                     </td>
                 </tr>
+				<tr>
+                    <td>
+                    	NVCleanstall
+                    </td>
+                    <td>
+                        <a href="https://www.techpowerup.com/download/techpowerup-nvcleanstall/" target="_blank">
+                        	Download Page
+                        </a>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
