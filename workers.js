@@ -612,7 +612,7 @@ var html = `
                 </tr>
                 <tr>
                     <td>
-                        PS4 Remote Play
+                        PlayStation Remote Play
                     </td>
                     <td>
                         <a href="https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller.exe" target="_blank">
@@ -1219,6 +1219,16 @@ var html = `
                     <td>
                         <a href="https://www.techpowerup.com/download/techpowerup-nvcleanstall/" target="_blank">
                         	Download Page
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        WPD
+                    </td>
+                    <td>
+                        <a href="https://wpd.app/get/latest.zip" target="_blank">
+                            Direct Link
                         </a>
                     </td>
                 </tr>
