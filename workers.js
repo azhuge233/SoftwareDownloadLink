@@ -39,7 +39,7 @@ var html = `
 
 <body class="text-center container" style="background-color: #121112; color: #EEEEEE;">
 	<a href="#top"></a>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar nav-fill navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">
         	<img src="https://img.icons8.com/flat_round/64/000000/link--v1.png" width="30" height="30" class="d-inline-block align-top" alt="">
         	Download Link
@@ -81,6 +81,12 @@ var html = `
         		</li>
         		<li class="nav-item">
         			<a class="nav-link" href="#remote">Remote Desktop</a>
+        		</li>
+				<li class="nav-item">
+        			<a class="nav-link" href="#imgburner">Image Burner</a>
+        		</li>
+				<li class="nav-item">
+        			<a class="nav-link" href="#sysmonitor">System Monitor</a>
         		</li>
         		<li class="nav-item">
         			<a class="nav-link" href="#others">Others</a>
@@ -193,7 +199,7 @@ var html = `
                         </a>
                     </td>
                 </tr>
-				<tr>
+				 <tr>
                     <td>
                         LINQPad
                     </td>
@@ -307,27 +313,16 @@ var html = `
 						</a>
 					</td>
 				</tr>
-                <tr>
-                    <td>
-                        Visual C++  
-                    </td>
-                    <td>
-                        <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank">
-                            Release Page
-                        </a>
-                    </td>
-                </tr>
-                <!--<tr>
-						<td>
-							
-						</td>
-						<td>
-							<a href="" target="_blank">
-								Download Page
-							</a>
-							&nbsp;
-						</td>
-					</tr>-->
+				<tr>
+					<td>
+						Visual C++	
+					</td>
+					<td>
+						<a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank">
+							Release Page
+						</a>
+					</td>
+				</tr>
             </tbody>
         </table>
     </div>
@@ -478,17 +473,6 @@ var html = `
                         </a>
                     </td>
                 </tr>
-                <!--<tr>
-						<td>
-							
-						</td>
-						<td>
-							<a href="" target="_blank">
-								
-							</a>
-							&nbsp;
-						</td>
-					</tr>-->
             </tbody>
         </table>
     </div>
@@ -1051,6 +1035,90 @@ var html = `
         </table>
     </div>
 
+	<a href="#imgburner"></a>
+    <div id="imgburner">
+		<h5>
+        	Image Burner
+        </h5>
+		<table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+				<tr>
+                    <td>
+                    	Win32DiskImager
+                    </td>
+                    <td>
+                        <a href="https://sourceforge.net/projects/win32diskimager/files/latest/download" target="_blank">
+                        	Direct Link
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    	etcher
+                    </td>
+                    <td>
+                        <a href="https://github.com/balena-io/etcher/releases" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    	rufus
+                    </td>
+                    <td>
+                        <a href="http://rufus.ie/downloads/" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<a href="#sysmonitor"></a>
+    <div id="sysmonitor">
+		<h5>
+        	System Monitor
+        </h5>
+		<table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+				<tr>
+                    <td>
+                    	TrafficMonitor
+                    </td>
+                    <td>
+                        <a href="https://github.com/zhongyang219/TrafficMonitor/releases" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
+				<tr>
+                    <td>
+                    	OpenHardwareMonitor
+                    </td>
+                    <td>
+                        <a href="https://openhardwaremonitor.org/downloads/" target="_blank">
+                        	Release Page
+                        </a>
+                    </td>
+                </tr>
+			</tbody>
+		</table>
+	</div>
+	
     <a href="#others"></a>
     <div id="others">
         <h5>
@@ -1096,16 +1164,6 @@ var html = `
                 </tr>
                 <tr>
                     <td>
-                    	TrafficMonitor
-                    </td>
-                    <td>
-                        <a href="https://github.com/zhongyang219/TrafficMonitor/releases" target="_blank">
-                        	Release Page
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                     	SpaceSniffer
                     </td>
                     <td>
@@ -1131,36 +1189,6 @@ var html = `
                     <td>
                         <a href="https://obsproject.com/download" target="_blank">
                         	Download Page
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    	Win32DiskImager
-                    </td>
-                    <td>
-                        <a href="https://sourceforge.net/projects/win32diskimager/files/latest/download" target="_blank">
-                        	Direct Link
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    	etcher
-                    </td>
-                    <td>
-                        <a href="https://github.com/balena-io/etcher/releases" target="_blank">
-                        	Release Page
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    	rufus
-                    </td>
-                    <td>
-                        <a href="http://rufus.ie/downloads/" target="_blank">
-                        	Release Page
                         </a>
                     </td>
                 </tr>
@@ -1204,16 +1232,6 @@ var html = `
                 </tr>
 				<tr>
                     <td>
-                    	OpenHardwareMonitor
-                    </td>
-                    <td>
-                        <a href="https://openhardwaremonitor.org/downloads/" target="_blank">
-                        	Release Page
-                        </a>
-                    </td>
-                </tr>
-				<tr>
-                    <td>
                     	NVCleanstall
                     </td>
                     <td>
@@ -1235,32 +1253,6 @@ var html = `
             </tbody>
         </table>
     </div>
-
-    <!-- <a href="#"></a>
-    <div id="">
-        <h5>
-        	
-        </h5>
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                    </td>
-                    <td>
-                        <a href="" target="_blank">
-                        </a>
-                        &nbsp;
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div> -->
 	
 	<footer class="footer navbar-fixed-bottom">
 		<p clash="text-center">
