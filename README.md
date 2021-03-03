@@ -1,5 +1,7 @@
 # SoftwareDownloadLink
  Some software download links page.
 
-[https://apps.azhuge233.workers.dev](https://apps.azhuge233.workers.dev)
+Cloudflare Workers: [https://apps.azhuge233.workers.dev](https://apps.azhuge233.workers.dev)
+
+Cloudflare Pages: [https://softwaredownloadlink.pages.dev](https://softwaredownloadlink.pages.dev/)
 
