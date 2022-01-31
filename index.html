@@ -21,91 +21,95 @@
     }
 
     #TopBtn {
+		display: none;
         position:fixed;
-        right:3px;
-        bottom:3px;
+        right:8px;
+        bottom:8px;
     }
 
     </style>
-   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://img.icons8.com/flat_round/64/000000/link--v1.png" />
     <link rel="apple-touch-icon" type="image/png" href="https://img.icons8.com/flat_round/64/000000/link--v1.png" />
 </head>
 
-<body class="text-center container" style="background-color: #121112; color: #EEEEEE;">
+<body class="text-center container-fluid" style="background-color: #121112; color: #EEEEEE;">
 	<a href="#top"></a>
-    <nav class="navbar nav-fill navbar-dark bg-dark">
-        <span class="navbar-brand mb-0 h1">
-        	<img src="https://img.icons8.com/flat_round/64/000000/link--v1.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        	Download Link
-        </span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      		<span class="navbar-toggler-icon"></span>
-    	</button>
+    <nav class="navbar navbar-toggleable-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+			<span class="navbar-brand mb-0 h1">
+				<img src="https://img.icons8.com/flat_round/64/000000/link--v1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+				<span>Download Link</span>
+			</span>
+        	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="display: inline;">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+		</div>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        	<ul class="navbar-nav mr-auto">
-        		<li class="nav-item">
-        			<a class="nav-link" href="#dev">Dev</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#virt">Virtualization</a>
-        		</li>
-				<li class="nav-item">
-        			<a class="nav-link" href="#editor">Editor</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#download">Download</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#game">Game</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#im">IM</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#media">Media</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#browser">Browser</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#office">Office</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#net">Network</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#remote">Remote Desktop</a>
-        		</li>
-				<li class="nav-item">
-        			<a class="nav-link" href="#imgburner">Image Burner</a>
-        		</li>
-				<li class="nav-item">
-        			<a class="nav-link" href="#sysmonitor">System Monitor</a>
-        		</li>
-        		<li class="nav-item">
-        			<a class="nav-link" href="#others">Others</a>
-        		</li>
-        	</ul>
-    	</div>
+        	<ul class="navbar-nav">
+        			<li class="nav-item">
+        				<a class="nav-link" href="#dev">Dev</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="#virt">Virtualization</a>
+        			</li>
+					<li class="nav-item">
+        				<a class="nav-link" href="#editor">Editor</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="#download">Download</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="#game">Game</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="#im">IM</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="#media">Media</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="#browser">Browser</a>
+        			</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#office">Office</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#net">Network</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#remote">Remote Desktop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#imgburner">Image Burner</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sysmonitor">System Monitor</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#others">Others</a>
+					</li>
+				</ul>
+		</div>
+		
     </nav>
     <br/>
 
     <div class="alert alert-info alert-dismissible fade show" role="alert">
     	All the links are from their official websites.
-  		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    		<span aria-hidden="true">&times;</span>
-  		</button>
+  		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 	</div>
 
-    <div id="TopBtn" class="btn btn-secondary">
-        <span>Back to Top</span>
+    <div id="TopBtn" onclick="topFunction()">
+		<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#0A58CA" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+			<path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+		</svg>
     </div>
 
     <a href="#dev"></a>
     <div id="dev">
         <h5>Dev</h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -132,11 +136,11 @@
                         Pycharm
                     </td>
                     <td>
-                        <table class="table table-borderless table-sm">
-                            <thead class="thead-dark">
+                        <table class="table table-borderless">
+                            <thead style="color: #fff;">
                                 <tr>
-                                    <th scope="col">Community</th>
-                                    <th scope="col">Professional</th>
+                                    <th>Community</th>
+                                    <th>Professional</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -356,7 +360,7 @@
         	Virtualization
         </h5>
        
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -393,7 +397,7 @@
         <h5>
         	Editor
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -472,7 +476,7 @@
         <h5>
         	Download
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -537,7 +541,7 @@
         <h5>
         	Game
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -672,7 +676,7 @@
         <h5>
         	IM
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -763,7 +767,7 @@
         <h5>
         	Media
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -837,7 +841,7 @@
         <h5>
         	Browser
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -884,7 +888,7 @@
         <h5>
         	Office
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -941,7 +945,7 @@
         <h5>
         	Network
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -1078,7 +1082,7 @@
         <h5>
         	Remote Desktop
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -1155,7 +1159,7 @@
 		<h5>
         	Image Burner
         </h5>
-		<table class="table table-dark">
+		<table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -1212,7 +1216,7 @@
 		<h5>
         	System Monitor
         </h5>
-		<table class="table table-dark">
+		<table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -1249,7 +1253,7 @@
         <h5>
         	Others
         </h5>
-        <table class="table table-dark">
+        <table class="table table-borderless table-dark">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
@@ -1422,32 +1426,24 @@
 	
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $("#TopBtn").hide();
+    mybutton = document.getElementById("TopBtn");
 
-        $(function() {
+	window.onscroll = function() {scrollFunction()};
 
-            $(window).scroll(function() {
-                if($(window).scrollTop() > 200) {
-                    $("#TopBtn").fadeIn(300);
-                }
-                else {
-                    $("#TopBtn").fadeOut(500);
-                }
-            });
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+	}
 
-            $("#TopBtn").click(function() {
-                $("body,html").animate({
-                    scrollTop: 0
-                }, 700);
-                return false;
-            });
-        });
-    });
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
 </script>
 
 </html>
